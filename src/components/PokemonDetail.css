@@ -1,0 +1,62 @@
+.pokeDetail-container {
+  display: flex;
+}
+
+.poke-img {
+  width: 30%;
+}
+
+.poke-img img {
+  max-width: 90%;
+  margin-top: 1rem;
+}
+
+.poke-detail {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.poke-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.poke-type {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+  justify-content: center;
+}
+
+.type-bar {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-right: 1rem;
+  padding: 0.2rem 0.9rem 0.4rem 0.9rem;
+  border-radius: 1rem;
+}
+
+.poke-physic {
+  margin-top: 1rem;
+}
+
+.physic-title {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+
+.move-list {
+  list-style-type: circle;
+  list-style-type: none;
+  overflow-y: auto;
+}
+
+.poke-moves {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+}
